@@ -26,10 +26,8 @@ import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.google.zxing.WriterException;
 import com.zxing.encoding.EncodingHandler;
-
+import com.google.zxing.WriterException;
 import java.io.File;
 
 import zblibrary.demo.DEMO.DemoMainActivity;
