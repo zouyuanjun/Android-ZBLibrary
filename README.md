@@ -24,22 +24,29 @@ OKHttp、UIL图片加载、ZXing二维码、沉浸状态栏、下载安装、自
 点击右边链接查看如何使用[http://my.oschina.net/u/2437072/blog/665241](http://my.oschina.net/u/2437072/blog/665241)
 
 
-![](https://github.com/TommyLemon/Android-ZBLibrary/blob/master/AllPages.jpg?raw=true)
+![](https://raw.githubusercontent.com/TommyLemon/StaticResources/master/ZBLibrary_AllPages.jpg)
 
-[以下Gif图看起来比较卡，在手机上App运行很流畅] 
+[以下Gif图看起来比较卡，实际在手机上App运行很流畅]
 
-![](https://github.com/TommyLemon/Android-ZBLibrary/blob/master/screenshot/Cache.gif)
-![](https://github.com/TommyLemon/Android-ZBLibrary/blob/master/screenshot/PlacePicker.gif)
-![](https://github.com/TommyLemon/Android-ZBLibrary/blob/master/screenshot/DatePicker.gif)
+ZBLibraryDemoApp<br />
 
+![](https://raw.githubusercontent.com/TommyLemon/StaticResources/master/ZBLibrary_Cache.gif)
+![](https://raw.githubusercontent.com/TommyLemon/StaticResources/master/ZBLibrary_PlacePicker.gif)
+![](https://raw.githubusercontent.com/TommyLemon/StaticResources/master/ZBLibrary_DatePicker.gif)
 
+<br />
+APIJSONApp<br />
+
+![](https://raw.githubusercontent.com/TommyLemon/StaticResources/master/APIJSON_App_MomentList_Circle.gif) 
+![](https://raw.githubusercontent.com/TommyLemon/StaticResources/master/APIJSON_App_Moment_Name.gif) 
+![](https://raw.githubusercontent.com/TommyLemon/StaticResources/master/APIJSON_App_Moment_Comment.gif)
 
 ## 用到的开源库
 [SystemBarTint](https://github.com/jgilfelt/SystemBarTint)
 系统栏管理器，我把它用在ZBLibrary的BaseActivity中实现了状态栏沉浸。
 
 [Glide](https://github.com/bumptech/glide)
-Google开发的一个强大易用的图片加载库。
+Google推荐的一个强大易用的图片加载库。
 
 [OKHttp](https://github.com/square/okhttp)
 很火很强大的Http/Https传输框架。ZBLibrary中的HttpManager对它做了封装（支持自签名Https），Demo中的HttpRequest是使用示例。
@@ -143,7 +150,7 @@ public class DemoApplication extends Application {
 
 ## 关于作者
 TommyLemon：[https://github.com/TommyLemon](https://github.com/TommyLemon) <br >
-QQ技术交流群：595514898(群1满)  421793905(群2)
+QQ技术交流群：421793905(群2) 595514898(群1满)
 
 如果有什么问题或建议可以[提ISSUE](https://github.com/TommyLemon/Android-ZBLibrary/issues)、加群或者[发我邮件](https://github.com/TommyLemon)，交流技术，分享经验。<br >
 如果你解决了某些bug，或者新增了一些通用性强的功能，欢迎[贡献代码](https://github.com/TommyLemon/Android-ZBLibrary/pulls)，感激不尽^_^
@@ -152,7 +159,7 @@ QQ技术交流群：595514898(群1满)  421793905(群2)
 
 [ZBLibraryDemoApp.apk(ZBLibrary)](http://files.cnblogs.com/files/tommylemon/ZBLibraryDemoApp.apk)
 
-[APIJSONClientApp.apk(APIJSON+ZBLibrary)](http://files.cnblogs.com/files/tommylemon/APIJSONApp.apk)
+[APIJSONApp.apk(APIJSON+ZBLibrary)](http://files.cnblogs.com/files/tommylemon/APIJSONApp.apk)
 
 ## 持续更新
 [https://github.com/TommyLemon/Android-ZBLibrary/commits/master](https://github.com/TommyLemon/Android-ZBLibrary/commits/master)
